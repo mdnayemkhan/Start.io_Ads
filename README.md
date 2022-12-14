@@ -63,14 +63,12 @@ public void onBackPressed() {
 ```
   
   >Step 9.Your Activity layout XML For 1200X628 px Cover ads:
-
-<com.startapp.sdk.ads.banner.Cover android:id="@
 ```
 <com.startapp.sdk.ads.banner.Cover 
-   android:id="@+id/startAppCover" 
-   android:layout_width="wrap_content" 
-   android:layout_height="wrap_content" 
-   android:layout_centerHorizontal="true" />
+android:id="@+id/startAppCover" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_centerHorizontal="true" />
 ```
   
   
