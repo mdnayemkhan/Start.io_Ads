@@ -32,8 +32,12 @@ android:value="startapp_app_id" />
 ```
 StartAppAd.disableSplash()
 ```
+  >Step 6.If want to show test ad,use it when app run on your phone:
+```
+StartAppSDK.setTestAdsEnabled(true);
+```
   
-  >Step 6.Show Interstitial Ads on Button click:
+  >Step 7.Show Interstitial Ads on Button click:
 ```
 button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,7 +48,7 @@ button.setOnClickListener(new View.OnClickListener() {
             }
         });
 ```
-  >Step 7.if you want to show Interstitial Ads when click back:
+  >Step 8.if you want to show Interstitial Ads when click back:
 ```
 @Override
 public void onBackPressed() {
@@ -53,7 +57,7 @@ public void onBackPressed() {
 }
 ```
   
-  >Step 8.Add the following View inside your Activity layout XML for Banner Ads:
+  >Step 9.Add the following View inside your Activity layout XML for Banner Ads:
 ```
 <com.startapp.sdk.ads.banner.Banner 
  android:id="@+id/startAppBanner" 
@@ -62,7 +66,7 @@ public void onBackPressed() {
  android:layout_centerHorizontal="true" />
 ```
   
-  >Step 9.Your Activity layout XML For 1200X628 px Cover ads:
+  >Step 10.Your Activity layout XML For 1200X628 px Cover ads:
 ```
 <com.startapp.sdk.ads.banner.Cover 
 android:id="@+id/startAppCover" 
